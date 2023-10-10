@@ -62,22 +62,22 @@ The output was not an error
  > Input:
  > `[user@sahara ~]$ cat` <br>
  > Output:
- > `lecture1` <br>
- > Since the ls command displays the list the files in the current directory, the files in the current directory is only `lecture1` <br>
- The output was not an error 
+ > `   ` <br>
+ > Since the cat command prints out the contents of a file, it needs arguments to do so. As a result of not having arguments, the terminal is stuck in a loop. <br>
+ The output was an error as the terminal became stuck in a loop trying to print the contents of nothing.
    ---
- 2. ls Command with a Path to a Directory: <br>
+ 2. cat Command with a Path to a Directory: <br>
 > Input:
-> `[user@sahara ~]$ ls lecture1/messages` <br>
+> `[user@sahara ~]$ cat lecture1/messages` <br>
 > Output:
-> `en-us.txt  es-mx.txt  zh-cn.txt`<br>
-> When passing a path as an argument with the ls command, it shows all the files in the that are in the path's directory.
-> In this case the output was not an error <br>
+> `cat: lecture1/messages: Is a directory`<br>
+> Since we gave the cat command a path that led to a directory rather than a file, nothing could be printed and therefore an error showed. <br> 
+> In this case the output was an error as the path did not lead to a file rather it just lead to a directory. <br>
    ---
  3. ls Command with a Path to a File: <br>
 > Input:
-> `[user@sahara ~]$ ls lecture1/Hello.class` <br>
+> `[user@sahara ~]$ cat lecture1/messages/en-us.txt` <br>
 > Output:
-> `lecture1/Hello.class`<br>
-> Since ls lists out the files in a given directory and not a file, although it isn't an output I expected, it outputted the path I used as an argument. This is because the file given as an argument is the only file in the directory, so therefore 'Hello.java' is given as an output.  <br>
+> `Hello World!`<br>
+> "Hello World!" is the text inside of en-us.txt and the cat command printed out the contents of the file.  <br>
 > In this case the output was not an error.
