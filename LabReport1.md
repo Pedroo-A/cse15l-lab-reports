@@ -28,7 +28,8 @@ While the output was not an error nothing occurred when using the command.
 > In this case the output was an error as Hello.class is a file and not a path so an error occurs.<br>
 ---
 
-
+<br><br>
+<br><br>
 ## *ls Command*
 *The ls command is used to list out the files in the current directory* <br>
  1. ls Command with no arguments: <br>
