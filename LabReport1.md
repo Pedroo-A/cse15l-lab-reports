@@ -2,17 +2,21 @@
 ---
 ## *cd Command*
  *cd is a command used to change the current working directory.* <br>
+ ![cd Comand Example](https://github.com/Pedroo-A/cse15l-lab-reports/blob/main/cdCommand.png)
  1. cd Command with no arguments: <br>
+ > Working Directory: /home <br>
 > Input:
 > `user@sahara ~]$ cd` <br>
 Nothing occurs as no arguments are passed to change the directory. <br>
 While the output was not an error nothing occurred when using the command.
    ---
  2. cd Command with a Path to a Directory: <br>
+> Working Directory: /home <br>
 > Input:
 > `[user@sahara ~]$ cd lecture1` <br>
 > Output:
 > `[user@sahara ~/lecture1]$ `<br>
+> Final Working Directory: /home/lecture1 <br>
 > Using the cd command the working directory changed as before using the cd command it was in the home directory, however now it is in /home/lecture1. <br>
 > This can be seen using pwd:<br>
 `[user@sahara ~/lecture1]$ pwd`<br>
@@ -20,6 +24,7 @@ While the output was not an error nothing occurred when using the command.
 > In this case the output was not an error as the purpose of the cd command is to change the working directory, therefore it takes a directory path as an argument.<br>
    ---
  3. cd Command with a Path to a File: <br>
+ > Working Directory: /home <br>
 > Input:
 > `[user@sahara ~/lecture1]$ cd Hello.class` <br>
 > Output:
@@ -31,8 +36,10 @@ While the output was not an error nothing occurred when using the command.
 <br><br>
 <br><br>
 ## *ls Command*
-*The ls command is used to list out the files in the current directory* <br>
+![ls Comand Example](https://github.com/Pedroo-A/cse15l-lab-reports/blob/main/lsCommand.png)
+<br>*The ls command is used to list out the files and directories that are in the current directory* <br>
  1. ls Command with no arguments: <br>
+> Working Directory: /home <br>
 > Input:
 > `user@sahara ~]$ ls` <br>
 > Output:
@@ -42,13 +49,15 @@ The output was not an error
    ---
  2. ls Command with a Path to a Directory: <br>
 > Input:
+> Working Directory: /home <br>
 > `[user@sahara ~]$ ls lecture1/messages` <br>
 > Output:
 > `en-us.txt  es-mx.txt  zh-cn.txt`<br>
-> When passing a path as an argument with the ls command, it shows all the files in the that are in the path's directory.
+> When passing a path as an argument with the ls command, it shows all the files and directories in the that are in the path's directory.
 > In this case the output was not an error <br>
    ---
  3. ls Command with a Path to a File: <br>
+> Working Directory: /home <br>
 > Input:
 > `[user@sahara ~]$ ls lecture1/Hello.class` <br>
 > Output:
@@ -59,15 +68,18 @@ The output was not an error
 
 ## *cat Command*
 *The cat command is used to print the contents of one or more files given by the path* <br>
+![cat Comand Example](https://github.com/Pedroo-A/cse15l-lab-reports/blob/main/catCommand.png)
 1. cat Command with no arguments: <br>
- > Input:
- > `[user@sahara ~]$ cat` <br>
- > Output:
- > `   ` <br>
- > Since the cat command prints out the contents of a file, it needs arguments to do so. As a result of not having arguments, the terminal is stuck in a loop. <br>
+> Working Directory: /home <br>
+> Input:
+> `[user@sahara ~]$ cat` <br>
+> Output:
+> `   ` <br>
+> Since the cat command prints out the contents of a file, it needs arguments to do so. As a result of not having arguments, the terminal is stuck in a loop. <br>
  The output was an error as the terminal became stuck in a loop trying to print the contents of nothing.
    ---
  2. cat Command with a Path to a Directory: <br>
+ > Working Directory: /home <br>
 > Input:
 > `[user@sahara ~]$ cat lecture1/messages` <br>
 > Output:
@@ -76,6 +88,7 @@ The output was not an error
 > In this case the output was an error as the path did not lead to a file rather it just lead to a directory. <br>
    ---
  3. ls Command with a Path to a File: <br>
+ > Working Directory: /home <br>
 > Input:
 > `[user@sahara ~]$ cat lecture1/messages/en-us.txt` <br>
 > Output:
