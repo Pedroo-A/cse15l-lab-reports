@@ -54,8 +54,10 @@ public class ArrayExamples {
 ```
 >The error in the code is that the original code does not hold the value of the first value of the array. 
 >In the second code it is fixed by creating a temporary variable to store the first value of the array so that it won't be deleted.<br>
+
 ---
 ---
+
 ## Part 2 - Researching Commands.
 ---
 ### Find command-line options <br>
