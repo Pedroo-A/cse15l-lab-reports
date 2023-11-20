@@ -106,8 +106,8 @@ To a directory:
 **To a file:**
 ![find file](find-delete-file.png)
 <br>**Result:**<br>
-![Before Delete](find-delete-file-before.png) ![After Delete](find-delete-file-after.png)
-<br>*Before(left) and after(right) command is run*<br><br>
+![Before Delete](find-delete-file-before.png)  <br>*Before(above) and after(below) command is run*<br> ![After Delete](find-delete-file-after.png)
+<br>
 The -delete option deletes a specified directory or file. While nothing seems to occur at the command line level, looking through the file explorer or using ls it will show that the file or directory has been deletd
 This is a useful becasue it allows for file deletion at the command line level. If there is a specific file or directory with a name someone wants to be deleted, this could be a way to mass delete files.<br>
 ><br>Source: find manual using command line.
