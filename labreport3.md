@@ -101,8 +101,8 @@ This is a useful option to find either directories or files. It can also take in
 To a directory:
 ![find directory](find-delete-dir.png)
 **Output(seen in file explorer):**<br>
-![Before Delete](find-delete-dir-before.png) ![After Delete](find-delete-dir-after.png)
-<br>*Before(left) and after(right) command is run*<br><br>
+![Before Delete](find-delete-dir-before.png) <br>*Before(above) and after(below) command is run*<br> ![After Delete](find-delete-dir-after.png)
+<br>
 **To a file:**
 ![find file](find-delete-file.png)
 <br>**Result:**<br>
