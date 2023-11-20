@@ -21,7 +21,7 @@ assertArrayEquals(new int[]{3, 2}, ArrayExamples.reversed(input1));
 	}
 ```
 Output: <br>
-##INSERT IMAGE FROM VSCODE IN HERE (YOU GOTTA RUN IT YOURSELF) 
+![Sucessful inout](Sucess-input.png)
 <br>
 <br>
 The bug in ArrayExamples.java causing failure-inducing inputs<br>
