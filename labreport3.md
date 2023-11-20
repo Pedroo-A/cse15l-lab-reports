@@ -64,27 +64,43 @@ To a directory:
 ![find directory](Find-name-dir.png)
 To a file:
 ![find directory](find-name-file.png)
->The -name option in the find command finds files and directories in a given directory with the specified name it is given.
->This is useful as it allows for the search of a specific file or file type in a directory, or even finding a directory in a workspace. 
-<br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
-
+The -name option in the find command finds files and directories in a given directory with the specified name it is given.<br>
+This is useful as it allows for the search of a specific file or file type in a directory, or even finding a directory in a workspace. 
+><br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+---
 #### -empty option <br>
 To a directory:
 ![find directory](find-empty-dir.png)
 To a file:
 ![find directory](find-empty-file.png)
->The -empty option in the find command finds empty files and directories in a specified directory.<br>
->This is a useful option to find any empty file or directory that take up space.
-<br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
-
+The -empty option in the find command finds empty files and directories in a specified directory.<br>
+This is a useful option to find any empty file or directory that take up space.
+><br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+---
 #### -type option <br>
-To a directory:
+To a directory:<br>
 ![find directory](find-type-d-dir.png)
 To a file:
 ![find file](find-f.png)
->The -type option includes differnt arguments to search for specified file types.<br>
+The -type option includes differnt arguments to search for specified file types.<br>
 >-type f looks for files.<br>
 >-type d searches for directories.<br>
->This is a useful option to find either directories or files. It can <br>
-<br>Source: https://tecadmin.net/linux-find-command-with-examples/
+
+This is a useful option to find either directories or files. It can also take in further arguments to search for specific directory names or file names/types<br>
+><br>Source: https://tecadmin.net/linux-find-command-with-examples/
+---
+#### -delete option <br>
+To a directory:
+![find directory](find-delete-dir.png)
+**Output(seen in file explorer):**<br>
+![Before Delete](find-delete-dir-before.png) ![After Delete](find-delete-dir-after.png)
+<br>*Before(left) and after(right) command is run*<br><br>
+**To a file:**
+![find file](find-delete-file.png)
+<br>**Result:**<br>
+![Before Delete](find-delete-file-before.png) ![After Delete](find-delete-file-after.png)
+<br>*Before(left) and after(right) command is run*<br><br>
+The -delete option deletes a specified directory or file. While nothing seems to occur at the command line level, looking through the file explorer or using ls it will show that the file or directory has been deletd
+This is a useful becasue it allows for file deletion at the command line level. If there is a specific file or directory with a name someone wants to be deleted, this could be a way to mass delete files.<br>
+><br>Source: find manual using command line.
   
