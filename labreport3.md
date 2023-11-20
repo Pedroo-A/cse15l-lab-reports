@@ -58,5 +58,33 @@ public class ArrayExamples {
 ---
 ## Part 2 - Researching Commands.
 ---
+### Find command-line options <br>
+#### -name option<br>
+To a directory:
+![find directory](Find-name-dir.png)
+To a file:
+![find directory](find-name-file.png)
+>The -name option in the find command finds files and directories in a given directory with the specified name it is given.
+>This is useful as it allows for the search of a specific file or file type in a directory, or even finding a directory in a workspace. 
+<br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
+#### -empty option <br>
+To a directory:
+![find directory](find-empty-dir.png)
+To a file:
+![find directory](find-empty-file.png)
+>The -empty option in the find command finds empty files and directories in a specified directory.<br>
+>This is a useful option to find any empty file or directory that take up space.
+<br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+
+#### -type option <br>
+To a directory:
+![find directory](find-type-d-dir.png)
+To a file:
+![find file](find-f.png)
+>The -type option includes differnt arguments to search for specified file types.<br>
+>-type f looks for files.<br>
+>-type d searches for directories.<br>
+>This is a useful option to find either directories or files. It can <br>
+<br>Source: https://tecadmin.net/linux-find-command-with-examples/
   
