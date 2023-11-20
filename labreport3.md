@@ -69,7 +69,9 @@ To a file:
 The -name option in the find command finds files and directories in a given directory with the specified name it is given.<br>
 This is useful as it allows for the search of a specific file or file type in a directory, or even finding a directory in a workspace. 
 ><br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+
 ---
+
 #### -empty option <br>
 To a directory:
 ![find directory](find-empty-dir.png)
@@ -78,7 +80,9 @@ To a file:
 The -empty option in the find command finds empty files and directories in a specified directory.<br>
 This is a useful option to find any empty file or directory that take up space.
 ><br>Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+
 ---
+
 #### -type option <br>
 To a directory:<br>
 ![find directory](find-type-d-dir.png)
@@ -90,7 +94,9 @@ The -type option includes differnt arguments to search for specified file types.
 
 This is a useful option to find either directories or files. It can also take in further arguments to search for specific directory names or file names/types<br>
 ><br>Source: https://tecadmin.net/linux-find-command-with-examples/
+
 ---
+
 #### -delete option <br>
 To a directory:
 ![find directory](find-delete-dir.png)
