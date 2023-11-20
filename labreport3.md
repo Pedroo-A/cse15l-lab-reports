@@ -10,8 +10,8 @@ assertArrayEquals(new int[]{3, 2}, ArrayExamples.reversed(input1));
  }
 ```
   Output: 
-  ## INSERT IMAGE IN GOOGLE DOC HERE <br><br>
-  Input that doesn't induce a failure <br>
+  ![Failure inducing output](failure-inducing-output.png)
+  <br>Input that doesn't induce a failure <br>
   ```
 	@Test 
 	public void testReverseInPlace() {
