@@ -18,4 +18,9 @@ for the file to recursively copy it needs a capital R rather than the lowercase 
 ---
 
 The directory needed to access this file is:
-``
+`/Users/pedroarias/lab9/list-examples-grader`
+<br> And the Files inside are: 
+`GradeServer.java`        `Server.java`             `TestListExamples.java`   `grade.sh`                `grading-area`            `lib`                     `student-submission`
+
+# Reflection 
+Something I learned from my lab expirence is that I found out how to work using vim and shortcuts within vim. While I had some knowledge of how to use a command terminal for running commands I had no idea I could actually look inside of them and edit them all within the command line itself. I found this to be cool as while sure it is harder to edit files in vim, if there ever was a case where I needed to do it well now I know how to do it and I find that amazing. Overall I thoroughly enjoyed the labs of this class.
