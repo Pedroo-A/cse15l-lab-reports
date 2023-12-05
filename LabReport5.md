@@ -5,7 +5,7 @@ Hi, there seems to be a strange error in my bash script for the grading script a
 as even when tests are supposed to fail they are passing. In the tests I ran using `grade.sh` the first one works fine however the jUnit error still appears, and the next test also shows the error, but it should say "Test failed. F." rather than "Test passed. A.". Can someone help?
 
 ![](lab5images/gradeshvim.png)
-<br><br><br>
+<br><br><br><br><br>
 ### Response from TA <br>
 Hello, There are actually multiple errors in your grade.sh script. From the looks of it you seem to be working from a Macbook remember that for Windows paths for directories use ";" while for Mac they use ":". This error has nothing to do with the grading area however, your bash script is not recursively copying the grading-area file, I would recommend looking up the differnt options for the cp command.<br><br>
 ### Output from Student's fixed code <br>
