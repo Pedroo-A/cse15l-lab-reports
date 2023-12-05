@@ -28,7 +28,7 @@ The directory needed to access this file is:
 <br><br> `grading-area`<br>
 ![](lab5images/grading-area.png)
 <br><br> `student-submission`<br>
-![](lab5images/student-submission.png)
+![](lab5images/student-submission.png) <br>
 ### Command lines that Triggered the bug
 ![](lab5images/error_output.png)<br>
 ### Description of how to Fix the Bug
