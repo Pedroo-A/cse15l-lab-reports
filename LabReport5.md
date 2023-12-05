@@ -20,7 +20,7 @@ The directory needed to access this file is:
 `GradeServer.java`             `TestListExamples.java`   `grade.sh`                `grading-area`            `lib`                     `student-submission` <br>
 ### Contents of Each File Before Bug Fix:<br>
 `GradeServer.java`<br>
-<img src="lab5images/GradeServerjavapt1.png" width="400" height="500"><img src="lab5images/GradeServerjavapt2.png" width="400" height="500">
+<img src="lab5images/GradeServerjavapt1.png" width="300" height="400"><img src="lab5images/GradeServerjavapt2.png" width="300" height="400">
 <br><br> `TestListExamples.java`
 ![](lab5images/Testlistexamples.png)
 <br><br> `grade.sh`
