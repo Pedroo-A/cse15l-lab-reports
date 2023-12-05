@@ -2,9 +2,9 @@
 ## Error in Code from Lab
 ### Anonymous<br>
 Hi, there seems to be a strange error in my bash script for the grading script and I am struggling to find the source of it. I believe the error seems to stem from jUnit itself as that is what the error message seems to state but messing with the lib folder or even rewriting the jUnit access command doesn't seem to work. It also seems to affect the grading area
-as even when tests are supposed to fail they are passing. In the screenshots below of the tests the first one works fine however the error still appears, but the one under it also shows the error, but it should say "Test failed. F." rather than "Test passed. A.". Can someone help?
+as even when tests are supposed to fail they are passing. In the tests I ran using `grade.sh` the first one works fine however the jUnit error still appears, and the next test also shows the error, but it should say "Test failed. F." rather than "Test passed. A.". Can someone help?
 
-![](lab5images/error_output.png)
+![](lab5images/gradeshvim.png)
 <br><br>
 ### Response from TA <br>
 Hello, There are actually multiple errors in your grade.sh script. From the looks of it you seem to be working from a Macbook remember that for Windows paths for directories use ";" while for Mac they use ":". This error has nothing to do with the grading area however, your bash script is not recursively copying the grading-area file, I would recommend looking up the differnt options for the cp command.<br><br>
